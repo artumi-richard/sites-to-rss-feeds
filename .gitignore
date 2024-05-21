@@ -1,0 +1,9 @@
+*.swp
+*.swo
+*.swq
+*.swn
+.phpcd/
+vendor/
+coverage/
+.env
+.phpunit.result.cache

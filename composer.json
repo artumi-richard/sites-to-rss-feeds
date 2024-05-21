@@ -1,0 +1,30 @@
+{
+    "name": "{{artumi-systems-ltd/projname}}",
+    "type": "{{library|project}}",
+    "description": "{{description}}",
+    "authors": [
+        {
+            "name": "{{author.name}}",
+            "email": "{{author.email}}"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.1"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "{{Namespace}}\\": "{{src-dir}}/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+	"repositories": [
+	]
+}
